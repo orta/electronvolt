@@ -1,6 +1,6 @@
 # Electron + Volt = [electronvolt](https://en.wikipedia.org/wiki/Electronvolt)
 
-Wraps our CMS, Volt in an Electron wrapper.
+Wraps our CMS, Volt in an Electron wrapper. See the [releases page for downloads](https://github.com/orta/electronvolt/releases)
 
 ### Development Scripts
 
