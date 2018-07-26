@@ -12,7 +12,6 @@ style.display = "inline-flex !important"
 
 const load = () => {
   webview.removeEventListener('did-finish-load', load);
-
 };
 
 webview.addEventListener('did-finish-load', load)
