@@ -1,0 +1,25 @@
+{
+  "name": "electronvolt",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
+  },
+  "dependencies": {
+    "source-map-support": "^0.5.5"
+  },
+  "devDependencies": {
+    "electron": "2.0.0",
+    "electron-builder": "^20.11.1",
+    "electron-webpack": "^2.0.1",
+    "electron-webpack-ts": "^2.0.2",
+    "typescript": "^2.9.2",
+    "webpack": "^4.8.1"
+  },
+  "resolutions": {
+    "webpack-sources": "1.0.1"
+  }
+}
